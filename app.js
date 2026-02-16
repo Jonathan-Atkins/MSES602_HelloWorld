@@ -1,12 +1,12 @@
 const http = require('http');
 
 const hostname = '127.0.0.1';
-const port = 8082;
+cionst port = 8082;
 
 const server = http.createServer((req, res) => {
 	  res.statusCode = 200;
 	  res.setHeader('Content-Type', 'text/plain');
-	  res.end('Hello World. My name is Jonathan Atkins, today is now the day after Valentines Day');res.end('This is my extension to see if build triggers automatically');
+	  res.end('Hello World. My name is Jonathan Atkins, thank you for the extention');
 });
 
 server.listen(port, hostname, () => {
